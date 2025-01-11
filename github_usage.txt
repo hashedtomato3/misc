@@ -1,6 +1,10 @@
 http://techacademy.jp/magazine/6235
 http://qiita.com/nnahito/items/565f8755e70c51532459
 
+#### auth
+from cloud shell, cannot work 2fa, so create personal access token on github site, and use it as password when git push origin.
+https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
 #### Initial (initial remote first, then clone)
 1) clone (url should be get on clone button in github page)
 $ git clone https://github.com/sdkn104/AppEngine.git
